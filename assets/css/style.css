@@ -17,13 +17,14 @@ header {
 
 header h1 {
     display: inline;
-    font-size: 35px;
+    font-size: 36px;
     font-weight: bold;
     margin: 0;
     color: #d9dcd6;
 }
 
 header a {
+    text-decoration: none;
     color: #d9dcd6;
 }
 
@@ -47,12 +48,15 @@ header nav ul li a {
 }
 /* Header Style Ends */
 
+/* Hero Section Starts */
 .hero {
-    background-image: url("..photos/digital-marketing-meeting.jpg");
+    background-image: url(".assets/images/digital-marketing-meeting.jpg"); alt:""; />
     height: 600px;
     background-size: cover;
     background-position: center;
     position: relative;
+}
+/* Hero Section Ends */    
 
 
 .float-left {
