@@ -7,6 +7,7 @@
 body {
     color: #2a607c;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #d9dcd6;
 }
 
 /* header styles start */
@@ -49,12 +50,9 @@ header nav ul li a {
 /* Header Style Ends */
 
 /* Hero Section Starts */
-.hero {
-    background-image: image(assets/images/digital-marketing-meeting.jpg);
-    background-size: cover;
+.hero img {    
+    width: unset;
     height: 600px;
-    background-position: center;
-    position: relative;
 }
 /* Hero Section Ends */  
 
@@ -65,7 +63,7 @@ header nav ul li a {
 
 .seo-article {
     width: 900px;
-    margin: 30px auto 30px auto;
+    margin: 10px auto 10px auto;
     background-color: #0072bb;
     color: aliceblue;
     overflow: auto;
@@ -81,6 +79,7 @@ header nav ul li a {
     padding: 35px;
     float: left;
     width: 65%;
+    text-align: left;
 }
 /* Search-Engine-Optimization/SEO Section Ends */
 
@@ -136,72 +135,53 @@ header nav ul li a {
 }
 /* Social-Media-Marketing Ends */
 
-
-
-
-
-.benefits {
+/* Lead-Generation Starts */
+.lg {
+    background-color:#2589bd;
+    color: aliceblue;
+    text-align: center;
     margin-right: 20px;
     padding: 20px;
-    clear: both;
     float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+.lg img{
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
+/* Lead-Generation Ends */
 
-.benefit-cost img {
+/* Brand-Awareness Starts */
+.ba {
+    background-color:#2589bd;
+    color: aliceblue;
+    text-align: center;
+}
+.ba img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+/* Brand-Awareness Ends */
+
+/* Cost-Management Starts */
+.cm {
+    background-color:#2589bd;
+    color: aliceblue;
+    text-align: center;
+}
+.cm img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* Cost-Management Ends */
 
 /* Footer Style Starts */
 footer {
-    background: #2a607c;
+    background: #0072bb;
     width: 100%;
     padding: 40px 35px;
 }
@@ -215,7 +195,7 @@ footer div {
 footer h2 {
     display: inline;
     color: #d9dcd6;
-    font-size: 30px;
+    font-size: 15px;
     margin: 0;
 }
 
