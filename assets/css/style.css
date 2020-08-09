@@ -14,6 +14,7 @@ body {
 header {
     padding: 20px 35px;
     background-color: #2a607c;
+    in
 }
 
 header h1 {
@@ -50,134 +51,259 @@ header nav ul li a {
 /* Header Style Ends */
 
 /* Hero Section Starts */
-.hero img {    
-    width: unset;
-    height: 600px;
+.hero {    
+    width: 50%;
+    height: 10%;
 }
 /* Hero Section Ends */  
 
-/* Search-Engine-Optimization/SEO Section Stars */
+/* Search-Engine-Optimization/Lead Generation */
 .SEO {
-    text-align: center;
-}
-
-.seo-article {
-    width: 900px;
-    margin: 10px auto 10px auto;
-    background-color: #0072bb;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px 10px 5px 10px; 
+    padding: 30px;
     color: aliceblue;
     overflow: auto;
+    width: auto;
+    background-color: #d9dcd6;
 }
 
-.seo-article img {
-    width: 35%;
-    float: left;
-    overflow: auto;
-}
-
-.seo-div {
-    padding: 35px;
-    float: left;
-    width: 65%;
-    text-align: left;
-}
-/* Search-Engine-Optimization/SEO Section Ends */
-
-/* Online-Reputation-Management Stars */
-.ORM {
-    text-align: center;
-}
-
-.ORM-article {
-    width: 900px;
-    margin: 30px auto 30px auto;
-    background-color: #0072bb;
+.lg-h3 {
+    background-color:#2589bd;
     color: aliceblue;
-    overflow: auto;
-}
-
-.ORM-article img {
-    width: 35%;
+    text-align: center;
     float: right;
+    vertical-align: top;
+    width: 13%;
+}
+
+.seo-img {
+    width: 35%;
+    float: left;
+    padding: 30px 10px 30px 50px;
+    background-color: #0072bb;
+}
+
+.seo-h1 {
+    float: left;
+    text-align: left;
+    vertical-align: top;
+    width: 50%;
+    background-color: #0072bb;
+    padding: 30px;
+}
+
+.lg-img {
+    width: 13%;
+    float: right;
+    vertical-align: top;
+    background-color:#2589bd;
+    padding: 10px 10px 10px 10px;
+}
+
+.seo-p {
+    float: left;
+    text-align: left;
+    vertical-align: top;
+    width: 50%;
+    height: 201px;
+    background-color: #0072bb;
+    font-size: large;
+}
+
+.lg-p {
+    background-color:#2589bd;
+    color: aliceblue;
+    text-align: left;
+    float: right;
+    vertical-align: top;
+    padding: 10px 10px;
+    width: 13%;
+}
+/* Search-Engine-Optimization/Lead Generation Ends*/
+
+/*  Online-Reputation-Management/Brand Awareness Ends */
+.ORM {
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px 10px 5px 10px; 
+    padding: 30px;
+    color: aliceblue;
     overflow: auto;
+    width: auto;
+    background-color: #d9dcd6;
 }
 
 .ORM-div {
-    padding: 35px;
-    float: right;
-    width: 65%;
+    display: inline-block;
 }
-/* Online-Reputation-Management Ends */
 
-/* Social-Media-Marketing Stars */
-.smm {
+.ba-h3 {
+    background-color:#2589bd;
+    color: aliceblue;
     text-align: center;
+    float: right;
+    vertical-align: top;
+    width: 13%;
 }
 
-.smm-article {
-    width: 900px;
-    margin: 30px auto 30px auto;
+.ba-img {
+    width: 13%;
+    float: left;
+    vertical-align: top;
+    background-color:#2589bd;
+    padding: 10px 10px 10px 10px;
+}
+
+.orm-img {
+    width: 35%;
+    float: right;
+    padding: 30px 10px 30px 50px;
     background-color: #0072bb;
+}
+
+.orm-h1 {
+    float: left;
+    text-align: left;
+    vertical-align: top;
+    width: 50%;
+    background-color: #0072bb;
+    padding: 30px;
+}
+
+
+
+.orm-p {
+    float: left;
+    text-align: left;
+    vertical-align: center;
+    width: 50%;
+    height: 201px;
+    background-color: #0072bb;
+    font-size: large;
+}
+
+.ba-p {
+    background-color:#2589bd;
+    color: aliceblue;
+    text-align: left;
+    float: right;
+    vertical-align: top;
+    padding: 10px 10px;
+    width: 13%;
+}/*  Online-Reputation-Management/Brand Awareness Ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Social-Media-Marketing/Cost Management Stars */
+.SMM {
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px 10px 5px 10px; 
+    padding: 30px;
     color: aliceblue;
     overflow: auto;
+    width: auto;
+    background-color: #d9dcd6;
+
+}
+.cm-h3 {
+    background-color:#2589bd;
+    color: aliceblue;
+    text-align: center;
+    float: right;
+    vertical-align: top;
+    width: 13%;
 }
 
-.smm-article img {
+.smm-img {
     width: 35%;
     float: left;
-    overflow: auto;
+    padding: 30px 10px 30px 50px;
+    background-color: #0072bb;
 }
 
-.smm-div {
-    padding: 35px;
+.smm-h1 {
     float: left;
-    width: 65%;
+    text-align: left;
+    vertical-align: top;
+    width: 50%;
+    background-color: #0072bb;
+    padding: 30px;
+}
+
+.cm-img {
+    width: 13%;
+    float: right;
+    vertical-align: top;
+    background-color:#2589bd;
+    padding: 10px 10px 10px 10px;
+}
+
+.smm-p {
+    float: left;
+    text-align: left;
+    vertical-align: top;
+    width: 50%;
+    height: 238px;
+    background-color: #0072bb;
+    font-size: large;
+}
+
+.cm-p {
+    background-color:#2589bd;
+    color: aliceblue;
+    text-align: left;
+    float: right;
+    vertical-align: top;
+    padding: 10px 10px;
+    width: 13%;
 }
 /* Social-Media-Marketing Ends */
 
-/* Lead-Generation Starts */
-.lg {
-    background-color:#2589bd;
-    color: aliceblue;
-    text-align: center;
-    margin-right: 20px;
-    padding: 20px;
-    float: right;
-}
 
-.lg img{
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
 
-/* Lead-Generation Ends */
 
-/* Brand-Awareness Starts */
-.ba {
-    background-color:#2589bd;
-    color: aliceblue;
-    text-align: center;
-}
-.ba img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-/* Brand-Awareness Ends */
 
-/* Cost-Management Starts */
-.cm {
-    background-color:#2589bd;
-    color: aliceblue;
-    text-align: center;
-}
-.cm img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-/* Cost-Management Ends */
 
 /* Footer Style Starts */
 footer {
