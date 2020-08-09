@@ -1,200 +1,135 @@
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 body {
-    color: #2a607c;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #d9dcd6;
 }
 
-/* header styles start */
-header {
-    padding: 20px 35px;
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    in
+    color: #ffffff;
 }
 
-header h1 {
-    display: inline;
-    font-size: 36px;
-    font-weight: bold;
-    margin: 0;
-    color: aliceblue;
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
 }
 
-header a {
-    text-decoration: none;
-    color: aliceblue;
-}
-
-header a span {
+.header h1 .seo {
     color: #d9dcd6;
 }
 
-header nav {
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
     float: right;
-    margin: 7px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
 }
 
-header nav ul li {
-    display: inline;
+.header div ul {
+    list-style-type: none;
 }
 
-header nav ul li a {
-    margin: 0 30px;
-    font-weight: lighter;
-    font-size: 22px;
-}
-/* Header Style Ends */
-
-/* Hero Section Starts */
-.hero {    
-    width: 50%;
-    height: 10%;
-}
-/* Hero Section Ends */  
-
-/* Search-Engine-Optimization/Lead Generation */
-.SEO {
+.header div ul li {
     display: inline-block;
-    vertical-align: top;
-    margin: 5px 10px 5px 10px; 
-    padding: 30px;
-    color: aliceblue;
-    overflow: auto;
-    width: auto;
-    background-color: #d9dcd6;
+    margin-left: 25px;
 }
 
-.lg-h3 {
-    background-color:#2589bd;
-    color: aliceblue;
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.benefit-body {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-body h3 {
+    margin-bottom: 10px;
     text-align: center;
-    float: right;
-    vertical-align: top;
-    width: 13%;
 }
 
-.seo-img {
-    width: 35%;
-    float: left;
-    padding: 30px 10px 30px 50px;
-    background-color: #0072bb;
+.benefit-body img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
 }
 
-.seo-h1 {
-    float: left;
-    text-align: left;
-    vertical-align: top;
-    width: 50%;
+.main-body {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
+    color: #ffffff;
+}
+
+.main-body img {
+    max-height: 200px;
+}
+
+.main-body h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.footer {
     padding: 30px;
-}
-
-.lg-img {
-    width: 13%;
-    float: right;
-    vertical-align: top;
-    background-color:#2589bd;
-    padding: 10px 10px 10px 10px;
-}
-
-.seo-p {
-    float: left;
-    text-align: left;
-    vertical-align: top;
-    width: 50%;
-    height: 201px;
-    background-color: #0072bb;
-    font-size: large;
-}
-
-.lg-p {
-    background-color:#2589bd;
-    color: aliceblue;
-    text-align: left;
-    float: right;
-    vertical-align: top;
-    padding: 10px 10px;
-    width: 13%;
-}
-/* Search-Engine-Optimization/Lead Generation Ends*/
-
-/*  Online-Reputation-Management/Brand Awareness Ends */
-.ORM {
-    display: inline-block;
-    vertical-align: top;
-    margin: 5px 10px 5px 10px; 
-    padding: 30px;
-    color: aliceblue;
-    overflow: auto;
-    width: auto;
-    background-color: #d9dcd6;
-}
-
-.ORM-div {
-    display: inline-block;
-}
-
-.ba-h3 {
-    background-color:#2589bd;
-    color: aliceblue;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    float: right;
-    vertical-align: top;
-    width: 13%;
 }
 
-.ba-img {
-    width: 13%;
-    float: left;
-    vertical-align: top;
-    background-color:#2589bd;
-    padding: 10px 10px 10px 10px;
+.footer h2 {
+    font-size: 20px;
 }
-
-.orm-img {
-    width: 35%;
-    float: right;
-    padding: 30px 10px 30px 50px;
-    background-color: #0072bb;
-}
-
-.orm-h1 {
-    float: left;
-    text-align: left;
-    vertical-align: top;
-    width: 50%;
-    background-color: #0072bb;
-    padding: 30px;
-}
-
-
-
-.orm-p {
-    float: left;
-    text-align: left;
-    vertical-align: center;
-    width: 50%;
-    height: 201px;
-    background-color: #0072bb;
-    font-size: large;
-}
-
-.ba-p {
-    background-color:#2589bd;
-    color: aliceblue;
-    text-align: left;
-    float: right;
-    vertical-align: top;
-    padding: 10px 10px;
-    width: 13%;
-}/*  Online-Reputation-Management/Brand Awareness Ends */
-
-
 
 
 
